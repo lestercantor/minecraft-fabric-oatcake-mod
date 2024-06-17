@@ -11,9 +11,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item OATCAKE = registerItem("oatcake", new Item(new Item.Settings()));
-    public static final Item BATTER = registerItem("oatcake_batter", new Item(new Item.Settings()));
-    public static final Item CHEESY_OATCAKE = registerItem("cheesy_oatcake", new Item(new Item.Settings()));
+    public static final Item OATCAKE = registerItem("oatcake", new Item(new Item.Settings()
+            .food(ModFoodComponents.OATCAKE)));
+    public static final Item BATTER = registerItem("oatcake_batter", new Item(new Item.Settings()
+            .food(ModFoodComponents.OATCAKE_BATTER)));
+    public static final Item CHEESY_OATCAKE = registerItem("cheesy_oatcake", new Item(new Item.Settings()
+            .food(ModFoodComponents.CHEESY_OATCAKE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(OATCAKE);
