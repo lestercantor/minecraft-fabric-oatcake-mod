@@ -2,6 +2,7 @@ package net.magic497.oatcakemod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.magic497.oatcakemod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class OatcakeMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
