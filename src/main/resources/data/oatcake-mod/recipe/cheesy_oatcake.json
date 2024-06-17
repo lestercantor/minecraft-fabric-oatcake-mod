@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oatcake-mod:oatcake"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "oatcake-mod:cheesy_oatcake",
+    "components": {
+      "lore": [
+        "'I asked for cheese'"
+      ]
+    }
+  }
+}

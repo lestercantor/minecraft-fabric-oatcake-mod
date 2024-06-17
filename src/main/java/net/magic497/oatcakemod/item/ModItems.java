@@ -13,10 +13,12 @@ public class ModItems {
 
     public static final Item OATCAKE = registerItem("oatcake", new Item(new Item.Settings()));
     public static final Item BATTER = registerItem("oatcake_batter", new Item(new Item.Settings()));
+    public static final Item CHEESY_OATCAKE = registerItem("cheesy_oatcake", new Item(new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(OATCAKE);
         entries.add(BATTER);
+        entries.add(CHEESY_OATCAKE);
     }
 
     private static Item registerItem(String name, Item item) {
