@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "oatcake-mod",
+	"version": "${version}",
+	"name": "Oatcake Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/oatcake-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.magic497.oatcakemod.OatcakeMod"
+		],
+		"client": [
+			"net.magic497.oatcakemod.OatcakeModClient"
+		],
+		"fabric-datagen": [
+			"net.magic497.oatcakemod.OatcakeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"oatcake-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
