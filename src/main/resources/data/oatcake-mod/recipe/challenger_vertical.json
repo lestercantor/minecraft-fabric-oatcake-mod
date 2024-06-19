@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "oatcake-mod:cheesy_oatcake"
+    },
+    "O": {
+      "item": "oatcake-mod:oatcake"
+    },
+    "B": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "H": {
+      "item": "minecraft:baked_potato"
+    }
+  },
+  "pattern": [
+    "OCO",
+    "BCH",
+    "OCO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oatcake-mod:challenger",
+    "components": {
+      "lore": [
+        "'Powered by Cheese and Oatcakes'"
+      ]
+    }
+  }
+}

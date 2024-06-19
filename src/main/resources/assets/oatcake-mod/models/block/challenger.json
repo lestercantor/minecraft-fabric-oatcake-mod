@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "particle": "oatcake-mod:block/challenger_short_side",
+    "bottom": "oatcake-mod:block/challenger_bottom",
+    "top": "oatcake-mod:block/challenger_top",
+    "short": "oatcake-mod:block/challenger_short_side",
+    "long": "oatcake-mod:block/challenger_long_side"
+  },
+  "elements": [
+    {   "from": [ 1, 0, 1 ],
+      "to": [ 15, 8, 15 ],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top" },
+        "north": { "texture": "#short" },
+        "south": { "texture": "#short" },
+        "west":  { "texture": "#long" },
+        "east":  { "texture": "#long" }
+      }
+    }
+  ]
+}
